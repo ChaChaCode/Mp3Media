@@ -20,7 +20,7 @@ Telegram бот для добавления обложек, названий и 
 
 1. Клонируй репозиторий:
 ```bash
-git clone https://github.com/yourusername/music-cover-bot.git
+git clone https://github.com/ChaChaCode/Mp3Media.git
 cd music-cover-bot
 ```
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 1. Запуск бота:
 ```bash
-python bot.py
+python main.py
 ```
 
 2. В Telegram:
@@ -82,7 +82,7 @@ python bot.py
 
 ```
 music-cover-bot/
-├── bot.py              # Основной файл бота
+├── main.py              # Основной файл бота
 ├── requirements.txt    # Зависимости
 ├── README.md          # Документация
 └── temp_files/        # Временные файлы (создается автоматически)
@@ -110,7 +110,3 @@ music-cover-bot/
 ## 📄 Лицензия
 
 MIT License - см. [LICENSE](LICENSE) файл
-
-## 📞 Поддержка
-
-Если нашел баг или есть предложения - создай [issue](https://github.com/yourusername/music-cover-bot/issues)
